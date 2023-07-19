@@ -8,7 +8,7 @@ src: url('truculenta.ttf');
 p {font-size: 25px;}
 body {background-color:#fbe0c3;
     }
-form {
+div {
     background-color: #354749;
     font-size: 25px;
 }
