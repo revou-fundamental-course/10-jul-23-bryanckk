@@ -1,0 +1,14 @@
+@font-face {
+font-family: "Font";
+src: url('truculenta.ttf');
+}
+.font {
+    font-family: "Font";
+    }
+p {font-size: 25px;}
+body {background-color:#fbe0c3;
+    }
+form {
+    background-color: #354749;
+    font-size: 25px;
+}

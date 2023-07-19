@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kalkulator BMI</title> <!-- Judul yang ditampilkan di atas browser-->
+      <link rel="stylesheet" href="style.css"> <!-- mengambil style dari file yang bernama "style.css"-->
+    </head>
+    <body>
+        <h1 class="font" style="color:#ffffff;"><center><marquee direction="left" bgcolor="#354749">Kalkulator BMI</marquee></center></h1>
+        <p class="font"><b>Berat badan ideal adalah impian semua orang.</b><br>
+        Tidak hanya memiliki bentuk tubuh yang menunjang penampilan, berat badan ideal juga menandakan kondisi tubuh yang sehat. <br>Bagaimana denganmu? Yuk, hitung sekarang di kalkulator BMI!
+        </p> <!-- menampilkan judul dari web dan ajakan singkat untuk menghitung BMI-->
+       <form class="font" style="color:#ffffff;"><bgcolor="#354749">
+        <!-- menggunakan form untuk mengumpulkan data dari pengguna -->
+            <div>
+                <label> Jenis Kelamin</label>
+                <br>
+                <label>Pria</label>
+                <input type="radio" name="jk" required>
+                <label> Wanita </label>
+                <input type="radio" name="jk" required>
+            </div>
+            <div>
+                <label>Berat Badan (kg)</label>
+                <br>
+                <input type="number" id="bb"required>
+            </div>
+            <div>
+                <label>Usia (tahun)</label>
+                <br>
+                <input type="number"  required>
+            </div>
+            <div>
+                <label>Tinggi Badan (cm)</label>
+                <br>
+                <input type="number" id="tb" required>
+            </div>
+            
+            <div>
+                <input type="submit">
+                <input type="reset">
+            </div>
+       </form> </bgcolor>
+    </body>
+</html>
